@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+#box1{
+  box-sizing: border-box;
+  width: 1000px;
+  height: 100px;
+  border: 10px solid w3-light-grey;
+  margin-left: 300px;
+}
+
+.nav navbar-nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar navbar-inverse{
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+.container-fluid{
+  #background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+p{
+  font-size: 20px;
+  color: black;
+}
+
+
+</style>
+
+</head>
+<body style="background-color: w3-light-grey;">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><a href="#">&nbsp;Learn Data Structures</a></li>
+      <li><a href="home.html"><i class="fas fa-home"></i>&nbsp;Home</a></li>
+      <li><a href="video tutorials.html"><i class="fas fa-video"></i>&nbsp;Video Tutorials</a></li>
+      <li><a href="live examples.html"><i class="fas fa-book"></i>&nbsp;Live Examples</a></li>
+      <li><a href="downloads.html"><i class="fas fa-download"></i>&nbsp;Downloads</a></li>
+  </ul>
+  </div>
+</nav>
+
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:20%">
+  <h3 class="w3-bar-item"><i class="fas fa-bars"></i>&nbsp;Menu</h3>
+  <nav>
+  <ul class="nav">
+  <a href="array.html" class="w3-bar-item w3-button">Array</a>
+  <a href="strings.html" class="w3-bar-item w3-button">String</a>
+  <a href="linked list.html" class="w3-bar-item w3-button">Linked List</a>
+  <a href="sparse matrix.html" class="w3-bar-item w3-button">Sparse Matrix</a>
+  <a href="stack.html" class="w3-bar-item w3-button">Stack</a>
+  <a href="queue.html" class="w3-bar-item w3-button">Queue</a>
+  <a href="tree.html" class="w3-bar-item w3-button">Tree</a>
+  <a href="searching and sorting.html" class="w3-bar-item w3-button">Searching and Sorting</a>
+  <a href="graph.html" class="w3-bar-item w3-button">Graph</a>
+</ul>
+</nav>
+</div>
+<h1 align="center"><div id="1" style="opacity: 0.8; border-radius: 5px; color: black;">Data Structures</div></h1>
+<div id="box1" style="opacity:0.9;"><p>Data Structures are the programmatic way of storing data so that data can be used efficiently. Almost every enterprise application uses various types of data structures in one or the other way.<br>
+Data Structure is a systematic way to organize data in order to use it efficiently.<br>
+<br>
+<p>Following terms are the foundation terms of a data structure.<br>
+<ul style="font-size: 20px;color: black;">
+<li>Interface − Each data structure has an interface. Interface represents the set of operations that a data structure supports. An interface only provides the list of supported operations, type of parameters they can accept and return type of these operations.</li>
+<br>
+<li>Implementation − Implementation provides the internal representation of a data structure. Implementation also provides the definition of the algorithms used in the operations of the data structure.</li><br>
+</ul>
+<br></p>
+<p>Characteristics of a Data Structure:-<br>
+<ul style="font-size: 20px;color: black;">
+<li>Correctness − Data structure implementation should implement its interface correctly.</li>
+<br>
+<li>Time Complexity − Running time or the execution time of operations of data structure must be as small as possible.</li>
+<br>
+<li>Space Complexity − Memory usage of a data structure operation should be as little as possible.<br></li>
+</ul></p>
+<p>Need for Data Structure:-<br>
+As applications are getting complex and data rich, there are three common problems that applications face now-a-days.
+<br>
+<ul style="font-size: 20px; color: black;">
+<li>Data Search − Consider an inventory of 1 million(106) items of a store. If the application is to search an item, it has to search an item in 1 million(106) items every time slowing down the search. As data grows, search will become slower.</li>
+<br>
+<li>Processor speed − Processor speed although being very high, falls limited if the data grows to billion records.</li>
+<br>
+<li>Multiple requests − As thousands of users can search data simultaneously on a web server, even the fast server fails while searching the data.</li>
+To solve the above-mentioned problems, data structures come to rescue. Data can be organized in a data structure in such a way that all items may not be required to be searched, and the required data can be searched almost instantly.<br>
+</ul></p>
+<p>Execution Time Cases:-<br>
+There are three cases which are usually used to compare various data structure's execution time in a relative manner.
+<br>
+<ul style="font-size: 20px;color: black;">
+<li>
+Worst Case − This is the scenario where a particular data structure operation takes maximum time it can take. If an operation's worst case time is ƒ(n) then this operation will not take more than ƒ(n) time where ƒ(n) represents function of n.</li>
+<br>
+<li>Average Case − This is the scenario depicting the average execution time of an operation of a data structure. If an operation takes ƒ(n) time in execution, then m operations will take mƒ(n) time.</li>
+<br>
+<li>Best Case − This is the scenario depicting the least possible execution time of an operation of a data structure. If an operation takes ƒ(n) time in execution, then the actual operation may take time as the random number which would be maximum as ƒ(n).</li></ul></p></div>
+</body>
+</html>
